@@ -2,11 +2,8 @@
 
 This buffer serves as an impedance matching and is implemented on the board that allows for balanced XLR inputs for two channels.
 
-
-
 ## PCB rendered in 3d:
 ![Screenshot](img/3d.png)
-
 
 ## Schematics:
 
