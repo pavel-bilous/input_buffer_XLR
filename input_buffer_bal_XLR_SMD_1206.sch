@@ -19,7 +19,7 @@ U 1 1 642E8D63
 P 4000 1500
 F 0 "R1" V 3793 1500 50  0000 C CNN
 F 1 "100R" V 3884 1500 50  0000 C CNN
-F 2 "local_footprint_lib:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_centered" V 3930 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 1500 50  0001 C CNN
 F 3 "~" H 4000 1500 50  0001 C CNN
 	1    4000 1500
 	0    1    1    0   
@@ -28,9 +28,9 @@ $Comp
 L Device:R R2
 U 1 1 642E9979
 P 4000 2500
-F 0 "R2" V 3793 2500 50  0000 C CNN
-F 1 "100R" V 3884 2500 50  0000 C CNN
-F 2 "local_footprint_lib:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_centered" V 3930 2500 50  0001 C CNN
+F 0 "R2" V 3800 2550 50  0000 C CNN
+F 1 "100R" V 3900 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 2500 50  0001 C CNN
 F 3 "~" H 4000 2500 50  0001 C CNN
 	1    4000 2500
 	0    1    1    0   
@@ -41,7 +41,7 @@ U 1 1 642E9F28
 P 4000 3500
 F 0 "R3" V 3793 3500 50  0000 C CNN
 F 1 "100R" V 3884 3500 50  0000 C CNN
-F 2 "local_footprint_lib:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_centered" V 3930 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 3500 50  0001 C CNN
 F 3 "~" H 4000 3500 50  0001 C CNN
 	1    4000 3500
 	0    1    1    0   
@@ -50,9 +50,9 @@ $Comp
 L Device:R R4
 U 1 1 642EA2A0
 P 4000 4500
-F 0 "R4" V 3793 4500 50  0000 C CNN
-F 1 "100R" V 3884 4500 50  0000 C CNN
-F 2 "local_footprint_lib:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_centered" V 3930 4500 50  0001 C CNN
+F 0 "R4" V 3800 4550 50  0000 C CNN
+F 1 "100R" V 3900 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 4500 50  0001 C CNN
 F 3 "~" H 4000 4500 50  0001 C CNN
 	1    4000 4500
 	0    1    1    0   
@@ -63,7 +63,7 @@ U 1 1 642EA738
 P 4500 1750
 F 0 "C5" H 4615 1796 50  0000 L CNN
 F 1 "220p" H 4615 1705 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 4538 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4538 1600 50  0001 C CNN
 F 3 "~" H 4500 1750 50  0001 C CNN
 	1    4500 1750
 	1    0    0    -1  
@@ -74,7 +74,7 @@ U 1 1 642EAE73
 P 4500 2250
 F 0 "C6" H 4615 2296 50  0000 L CNN
 F 1 "220p" H 4615 2205 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 4538 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4538 2100 50  0001 C CNN
 F 3 "~" H 4500 2250 50  0001 C CNN
 	1    4500 2250
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 642EB2B2
 P 4500 3750
 F 0 "C7" H 4615 3796 50  0000 L CNN
 F 1 "220p" H 4615 3705 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 4538 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4538 3600 50  0001 C CNN
 F 3 "~" H 4500 3750 50  0001 C CNN
 	1    4500 3750
 	1    0    0    -1  
@@ -96,7 +96,7 @@ U 1 1 642EB9D1
 P 4500 4250
 F 0 "C8" H 4615 4296 50  0000 L CNN
 F 1 "220p" H 4615 4205 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 4538 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4538 4100 50  0001 C CNN
 F 3 "~" H 4500 4250 50  0001 C CNN
 	1    4500 4250
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 642EBF6E
 P 5000 2000
 F 0 "R5" V 4793 2000 50  0000 C CNN
 F 1 "2M2" V 4884 2000 50  0000 C CNN
-F 2 "local_footprint_lib:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_centered" V 4930 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4930 2000 50  0001 C CNN
 F 3 "~" H 5000 2000 50  0001 C CNN
 	1    5000 2000
 	0    1    1    0   
@@ -118,7 +118,7 @@ U 1 1 642EC460
 P 5300 1750
 F 0 "R7" H 5370 1796 50  0000 L CNN
 F 1 "47K" H 5370 1705 50  0000 L CNN
-F 2 "local_footprint_lib:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_centered" V 5230 1750 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5230 1750 50  0001 C CNN
 F 3 "~" H 5300 1750 50  0001 C CNN
 	1    5300 1750
 	1    0    0    -1  
@@ -129,7 +129,7 @@ U 1 1 642ED08D
 P 5300 2250
 F 0 "R8" H 5370 2296 50  0000 L CNN
 F 1 "47K" H 5370 2205 50  0000 L CNN
-F 2 "local_footprint_lib:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_centered" V 5230 2250 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5230 2250 50  0001 C CNN
 F 3 "~" H 5300 2250 50  0001 C CNN
 	1    5300 2250
 	1    0    0    -1  
@@ -140,7 +140,7 @@ U 1 1 642ED3C6
 P 5000 4000
 F 0 "R6" V 4793 4000 50  0000 C CNN
 F 1 "2M2" V 4884 4000 50  0000 C CNN
-F 2 "local_footprint_lib:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_centered" V 4930 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4930 4000 50  0001 C CNN
 F 3 "~" H 5000 4000 50  0001 C CNN
 	1    5000 4000
 	0    1    1    0   
@@ -151,7 +151,7 @@ U 1 1 642ED88E
 P 5300 3750
 F 0 "R9" H 5370 3796 50  0000 L CNN
 F 1 "47K" H 5370 3705 50  0000 L CNN
-F 2 "local_footprint_lib:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_centered" V 5230 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5230 3750 50  0001 C CNN
 F 3 "~" H 5300 3750 50  0001 C CNN
 	1    5300 3750
 	1    0    0    -1  
@@ -162,7 +162,7 @@ U 1 1 642EDD56
 P 5300 4250
 F 0 "R10" H 5370 4296 50  0000 L CNN
 F 1 "47K" H 5370 4205 50  0000 L CNN
-F 2 "local_footprint_lib:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal_centered" V 5230 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5230 4250 50  0001 C CNN
 F 3 "~" H 5300 4250 50  0001 C CNN
 	1    5300 4250
 	1    0    0    -1  
@@ -173,7 +173,7 @@ U 1 1 642EE55A
 P 6200 1600
 F 0 "U1" H 6200 1967 50  0000 C CNN
 F 1 "LM4562" H 6200 1876 50  0000 C CNN
-F 2 "local_footprint_lib:DIP-8_W7.62mm_centered" H 6200 1600 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6200 1600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm4562.pdf" H 6200 1600 50  0001 C CNN
 	1    6200 1600
 	1    0    0    -1  
@@ -184,7 +184,7 @@ U 2 1 642F0EC9
 P 6200 2600
 F 0 "U1" H 6200 2967 50  0000 C CNN
 F 1 "LM4562" H 6200 2876 50  0000 C CNN
-F 2 "local_footprint_lib:DIP-8_W7.62mm_centered" H 6200 2600 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6200 2600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm4562.pdf" H 6200 2600 50  0001 C CNN
 	2    6200 2600
 	1    0    0    -1  
@@ -195,7 +195,7 @@ U 3 1 642F3C7E
 P 2550 6100
 F 0 "U1" H 2508 6146 50  0000 L CNN
 F 1 "LM4562" H 2508 6055 50  0000 L CNN
-F 2 "local_footprint_lib:DIP-8_W7.62mm_centered" H 2550 6100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2550 6100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm4562.pdf" H 2550 6100 50  0001 C CNN
 	3    2550 6100
 	1    0    0    -1  
@@ -206,7 +206,7 @@ U 1 1 642F6B68
 P 6200 3600
 F 0 "U2" H 6200 3967 50  0000 C CNN
 F 1 "LM4562" H 6200 3876 50  0000 C CNN
-F 2 "local_footprint_lib:DIP-8_W7.62mm_centered" H 6200 3600 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6200 3600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm4562.pdf" H 6200 3600 50  0001 C CNN
 	1    6200 3600
 	1    0    0    -1  
@@ -217,7 +217,7 @@ U 2 1 642F91B7
 P 6200 4600
 F 0 "U2" H 6200 4967 50  0000 C CNN
 F 1 "LM4562" H 6200 4876 50  0000 C CNN
-F 2 "local_footprint_lib:DIP-8_W7.62mm_centered" H 6200 4600 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6200 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm4562.pdf" H 6200 4600 50  0001 C CNN
 	2    6200 4600
 	1    0    0    -1  
@@ -228,7 +228,7 @@ U 3 1 642FBBAF
 P 3050 6100
 F 0 "U2" H 3008 6146 50  0000 L CNN
 F 1 "LM4562" H 3008 6055 50  0000 L CNN
-F 2 "local_footprint_lib:DIP-8_W7.62mm_centered" H 3050 6100 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3050 6100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm4562.pdf" H 3050 6100 50  0001 C CNN
 	3    3050 6100
 	1    0    0    -1  
@@ -239,7 +239,7 @@ U 1 1 642FEBF9
 P 3450 6250
 F 0 "C3" H 3565 6296 50  0000 L CNN
 F 1 "100n" H 3565 6205 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 3488 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3488 6100 50  0001 C CNN
 F 3 "~" H 3450 6250 50  0001 C CNN
 	1    3450 6250
 	1    0    0    -1  
@@ -250,7 +250,7 @@ U 1 1 642FF374
 P 3900 6250
 F 0 "C4" H 4015 6296 50  0000 L CNN
 F 1 "100n" H 4015 6205 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 3938 6100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3938 6100 50  0001 C CNN
 F 3 "~" H 3900 6250 50  0001 C CNN
 	1    3900 6250
 	1    0    0    -1  
@@ -261,7 +261,7 @@ U 1 1 642FF785
 P 1600 5950
 F 0 "C1" H 1715 5996 50  0000 L CNN
 F 1 "100n" H 1715 5905 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 1638 5800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1638 5800 50  0001 C CNN
 F 3 "~" H 1600 5950 50  0001 C CNN
 	1    1600 5950
 	1    0    0    -1  
@@ -272,7 +272,7 @@ U 1 1 642FFE76
 P 2050 5950
 F 0 "C2" H 2165 5996 50  0000 L CNN
 F 1 "100n" H 2165 5905 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 2088 5800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2088 5800 50  0001 C CNN
 F 3 "~" H 2050 5950 50  0001 C CNN
 	1    2050 5950
 	1    0    0    -1  
@@ -315,8 +315,8 @@ L Device:D_TVS D1
 U 1 1 643041C2
 P 3500 1750
 F 0 "D1" V 3454 1830 50  0000 L CNN
-F 1 "P6KE6.8" V 3545 1830 50  0000 L CNN
-F 2 "local_footprint_lib:D_DO-15_P12.70mm_Horizontal_centered_TVS" H 3500 1750 50  0001 C CNN
+F 1 "SMF6.0CA" V 3545 1830 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3500 1750 50  0001 C CNN
 F 3 "~" H 3500 1750 50  0001 C CNN
 	1    3500 1750
 	0    1    1    0   
@@ -326,8 +326,8 @@ L Device:D_TVS D2
 U 1 1 643057BF
 P 3500 2250
 F 0 "D2" V 3454 2330 50  0000 L CNN
-F 1 "P6KE6.8" V 3545 2330 50  0000 L CNN
-F 2 "local_footprint_lib:D_DO-15_P12.70mm_Horizontal_centered_TVS" H 3500 2250 50  0001 C CNN
+F 1 "SMF6.0CA" V 3545 2330 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3500 2250 50  0001 C CNN
 F 3 "~" H 3500 2250 50  0001 C CNN
 	1    3500 2250
 	0    1    1    0   
@@ -337,8 +337,8 @@ L Device:D_TVS D3
 U 1 1 64305C5C
 P 3500 3750
 F 0 "D3" V 3454 3830 50  0000 L CNN
-F 1 "P6KE6.8" V 3545 3830 50  0000 L CNN
-F 2 "local_footprint_lib:D_DO-15_P12.70mm_Horizontal_centered_TVS" H 3500 3750 50  0001 C CNN
+F 1 "SMF6.0CA" V 3545 3830 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3500 3750 50  0001 C CNN
 F 3 "~" H 3500 3750 50  0001 C CNN
 	1    3500 3750
 	0    1    1    0   
@@ -348,8 +348,8 @@ L Device:D_TVS D4
 U 1 1 64306270
 P 3500 4250
 F 0 "D4" V 3454 4330 50  0000 L CNN
-F 1 "P6KE6.8" V 3545 4330 50  0000 L CNN
-F 2 "local_footprint_lib:D_DO-15_P12.70mm_Horizontal_centered_TVS" H 3500 4250 50  0001 C CNN
+F 1 "SMF6.0CA" V 3545 4330 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3500 4250 50  0001 C CNN
 F 3 "~" H 3500 4250 50  0001 C CNN
 	1    3500 4250
 	0    1    1    0   
