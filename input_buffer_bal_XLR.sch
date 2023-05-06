@@ -63,7 +63,7 @@ U 1 1 642EA738
 P 4500 1750
 F 0 "C5" H 4615 1796 50  0000 L CNN
 F 1 "220p" H 4615 1705 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 4538 1600 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4538 1600 50  0001 C CNN
 F 3 "~" H 4500 1750 50  0001 C CNN
 	1    4500 1750
 	1    0    0    -1  
@@ -74,7 +74,7 @@ U 1 1 642EAE73
 P 4500 2250
 F 0 "C6" H 4615 2296 50  0000 L CNN
 F 1 "220p" H 4615 2205 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 4538 2100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4538 2100 50  0001 C CNN
 F 3 "~" H 4500 2250 50  0001 C CNN
 	1    4500 2250
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 642EB2B2
 P 4500 3750
 F 0 "C7" H 4615 3796 50  0000 L CNN
 F 1 "220p" H 4615 3705 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 4538 3600 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4538 3600 50  0001 C CNN
 F 3 "~" H 4500 3750 50  0001 C CNN
 	1    4500 3750
 	1    0    0    -1  
@@ -96,7 +96,7 @@ U 1 1 642EB9D1
 P 4500 4250
 F 0 "C8" H 4615 4296 50  0000 L CNN
 F 1 "220p" H 4615 4205 50  0000 L CNN
-F 2 "local_footprint_lib:C_Disc_D3.8mm_W2.6mm_P2.50mm_centered" H 4538 4100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4538 4100 50  0001 C CNN
 F 3 "~" H 4500 4250 50  0001 C CNN
 	1    4500 4250
 	1    0    0    -1  
