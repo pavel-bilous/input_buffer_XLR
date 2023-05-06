@@ -16,7 +16,7 @@ Opamps can be NE5532 or LM4562 or any other with good unity gain stability.
 
 Input XLR connectors are Neutrik NC3FAAH2.
 
-Capacitors for input low pass filters are C0G or NP0 type. Decoupling capacitors are X7R 100nF or higher (1uF - 10uF will work great).
+Capacitors for input low pass filters are film type. Decoupling capacitors are X7R 100nF or higher (1uF - 10uF will work great).
 
 ![Screenshot](img/sch.png)
 
