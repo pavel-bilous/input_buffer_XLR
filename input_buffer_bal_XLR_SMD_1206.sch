@@ -300,17 +300,6 @@ F 3 "~" H 7200 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J3
-U 1 1 64303384
-P 5150 6100
-F 0 "J3" H 5122 6032 50  0000 R CNN
-F 1 "POWER" H 5122 6123 50  0000 R CNN
-F 2 "local_footprint_lib:TerminalBlock_ Amphenol_01_03_P3.50mm" H 5150 6100 50  0001 C CNN
-F 3 "~" H 5150 6100 50  0001 C CNN
-	1    5150 6100
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:D_TVS D1
 U 1 1 643041C2
 P 3500 1750
@@ -744,33 +733,18 @@ $EndComp
 $Comp
 L power:+15V #PWR010
 U 1 1 64419D7E
-P 4800 5900
-F 0 "#PWR010" H 4800 5750 50  0001 C CNN
-F 1 "+15V" H 4815 6073 50  0000 C CNN
-F 2 "" H 4800 5900 50  0001 C CNN
-F 3 "" H 4800 5900 50  0001 C CNN
-	1    4800 5900
+P 4800 6000
+F 0 "#PWR010" H 4800 5850 50  0001 C CNN
+F 1 "+15V" H 4815 6173 50  0000 C CNN
+F 2 "" H 4800 6000 50  0001 C CNN
+F 3 "" H 4800 6000 50  0001 C CNN
+	1    4800 6000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 6441BDA0
-P 4550 5900
-F 0 "#PWR09" H 4550 5650 50  0001 C CNN
-F 1 "GND" H 4555 5727 50  0000 C CNN
-F 2 "" H 4550 5900 50  0001 C CNN
-F 3 "" H 4550 5900 50  0001 C CNN
-	1    4550 5900
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	4800 5900 4800 6000
+	4800 6000 4800 6100
 Wire Wire Line
-	4800 6000 4950 6000
-Wire Wire Line
-	4950 6100 4550 6100
-Wire Wire Line
-	4550 6100 4550 5900
+	4800 6100 4950 6100
 Wire Wire Line
 	4950 6200 4850 6200
 Wire Wire Line
@@ -795,6 +769,17 @@ F 1 "MountingHole" H 9250 5855 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 9150 5900 50  0001 C CNN
 F 3 "~" H 9150 5900 50  0001 C CNN
 	1    9150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 64795BCC
+P 5150 6100
+F 0 "J3" H 5230 6092 50  0000 L CNN
+F 1 "POWER" H 5230 6001 50  0000 L CNN
+F 2 "local_footprint_lib:TerminalBlock_ Amphenol_01_02_P3.50mm" H 5150 6100 50  0001 C CNN
+F 3 "~" H 5150 6100 50  0001 C CNN
+	1    5150 6100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
