@@ -4,10 +4,10 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Balanced input impedance matshin buffer with XRL connectors"
-Date "2023-04-06"
+Title "Balanced input buffer with XRL connectors"
+Date "2024-01-18"
 Rev "R1.0"
-Comp "Bilous Sound"
+Comp "Pavlo's Lab"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -555,24 +555,24 @@ $EndComp
 $Comp
 L Amplifier_Operational:LM4562 U2
 U 1 1 65A8727D
-P 5250 4900
-F 0 "U2" H 5250 5267 50  0000 C CNN
-F 1 "LM4562" H 5250 5176 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 4900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm4562.pdf" H 5250 4900 50  0001 C CNN
-	1    5250 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:LM4562 U2
-U 2 1 65A87283
 P 5250 6100
 F 0 "U2" H 5250 6467 50  0000 C CNN
 F 1 "LM4562" H 5250 6376 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 6100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm4562.pdf" H 5250 6100 50  0001 C CNN
-	2    5250 6100
+	1    5250 6100
 	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:LM4562 U2
+U 2 1 65A87283
+P 5250 4900
+F 0 "U2" H 5250 5267 50  0000 C CNN
+F 1 "LM4562" H 5250 5176 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5250 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm4562.pdf" H 5250 4900 50  0001 C CNN
+	2    5250 4900
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:XLR3_Ground J3
@@ -704,7 +704,7 @@ U 1 1 65AB7B84
 P 2300 3850
 F 0 "SW1" H 2275 4681 50  0000 C CNN
 F 1 "BTL" H 2275 4590 50  0000 C CNN
-F 2 "" H 2220 4000 50  0001 C CNN
+F 2 "local_footprint_lib:SW_SS-42H11_4PDT" H 2220 4000 50  0001 C CNN
 F 3 "~" H 2220 4000 50  0001 C CNN
 	1    2300 3850
 	1    0    0    -1  
@@ -732,12 +732,6 @@ Wire Wire Line
 	2550 4300 2550 4250
 Wire Wire Line
 	2550 4250 2450 4250
-Wire Wire Line
-	2100 4350 2000 4350
-Wire Wire Line
-	2000 4350 2000 6000
-Wire Wire Line
-	2000 6000 3000 6000
 Wire Wire Line
 	3000 5000 1850 5000
 Wire Wire Line
@@ -837,7 +831,7 @@ F 1 "CH1_OUT" H 7650 5550 50  0000 C CNN
 F 2 "local_footprint_lib:TerminalBlock_ Amphenol_01_03_P3.50mm" H 7400 5500 50  0001 C CNN
 F 3 "~" H 7400 5500 50  0001 C CNN
 	1    7400 5500
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7200 5500 7000 5500
@@ -859,7 +853,7 @@ U 1 1 65BBD2EB
 P 5950 1900
 F 0 "SW2" H 5950 2267 50  0000 C CNN
 F 1 "GAIN_CH1" H 5950 2176 50  0000 C CNN
-F 2 "" H 5950 1900 50  0001 C CNN
+F 2 "local_footprint_lib:SW_DIP_SPSTx02_Slide_W7.62mm_P2.54mm" H 5950 1900 50  0001 C CNN
 F 3 "~" H 5950 1900 50  0001 C CNN
 	1    5950 1900
 	1    0    0    -1  
@@ -922,7 +916,7 @@ U 1 1 65BF6A74
 P 5950 5400
 F 0 "SW3" H 5950 5767 50  0000 C CNN
 F 1 "GAIN_CH2" H 5950 5676 50  0000 C CNN
-F 2 "" H 5950 5400 50  0001 C CNN
+F 2 "local_footprint_lib:SW_DIP_SPSTx02_Slide_W7.62mm_P2.54mm" H 5950 5400 50  0001 C CNN
 F 3 "~" H 5950 5400 50  0001 C CNN
 	1    5950 5400
 	1    0    0    -1  
@@ -957,4 +951,27 @@ Wire Wire Line
 	5550 5300 5650 5300
 Connection ~ 5550 5300
 Connection ~ 5650 5300
+$Comp
+L power:GND #PWR0101
+U 1 1 65AE8933
+P 2050 4550
+F 0 "#PWR0101" H 2050 4300 50  0001 C CNN
+F 1 "GND" H 2055 4377 50  0001 C CNN
+F 2 "" H 2050 4550 50  0001 C CNN
+F 3 "" H 2050 4550 50  0001 C CNN
+	1    2050 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 4500 2050 4500
+Wire Wire Line
+	2050 4500 2050 4550
+Wire Wire Line
+	1950 4350 1950 6000
+Wire Wire Line
+	1950 4350 2100 4350
+Wire Wire Line
+	1950 6000 3000 6000
+Connection ~ 5550 4900
+Connection ~ 5550 6100
 $EndSCHEMATC
